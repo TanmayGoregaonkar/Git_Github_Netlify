@@ -1,0 +1,21 @@
+// First time
+
+// Initialize repo in git
+git init
+git add .
+git commit -m "first commit"
+
+//create new repo on github
+// connect git and github
+
+git remote add origin repo link
+git branch -M master
+git push -u origin master
+
+// Every time file change
+git add .
+git commit -m "first commit"
+git push -u origin master
+
+// Hosting on netlify
+CI= npm run build //in case build fail
